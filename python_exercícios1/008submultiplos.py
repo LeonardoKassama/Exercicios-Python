@@ -1,0 +1,6 @@
+valor = float(input('Escreva um valor em metros: '))
+print('{} metros.\nCorresponde à {}km'.format(valor, valor/1000))
+print('corresponde à {}hm \nCorresponde à {}dam'.format((valor/100), (valor/10)))
+print('Corresponde à {}dm'.format(valor, valor*10))
+print('Corresponde à {}cm'.format(valor*100))
+print('Corresponde à {}mm'.format(valor*1000))
